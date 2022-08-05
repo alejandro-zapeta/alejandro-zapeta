@@ -1,0 +1,25 @@
+{
+  "name": "clear",
+  "version": "1.0.0",
+  "description": "<!-- **alejandro-zapeta/alejandro-zapeta** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.",
+  "main": "index.js",
+  "scripts": {
+    "css-build": "node-sass --omit-source-map-url sass/styles.scss css/thestyle.css --output-style compressed",
+    "css-build2": "node-sass --omit-source-map-url sass/styles.scss css/thestyle.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alejandro-zapeta/alejandro-zapeta.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alejandro-zapeta/alejandro-zapeta/issues"
+  },
+  "homepage": "https://github.com/alejandro-zapeta/alejandro-zapeta#readme",
+  "devDependencies": {
+    "bulma": "^0.9.4",
+    "node-sass": "^7.0.1"
+  }
+}
